@@ -7,8 +7,8 @@ y=db["Salary"]
 model = LinearRegression()
 model.fit(x,y)
 print("---------------------------------------------------------------------------")
-#exp=float(input("Enter your year of experience : "))
-exp=$EXPERIENCE
+exp=float(input("Enter your year of experience : "))
+#exp=$EXPERIENCE
 output=model.predict([[float(exp)]])
 print("Salary that u will get : Rs {}".format(output[0]))
 print("---------------------------------------------------------------------------")
