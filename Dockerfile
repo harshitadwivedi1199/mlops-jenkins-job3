@@ -6,9 +6,9 @@ RUN pip3 install pandas sklearn
 
 RUN mkdir -p /sal_pred
 
-COPY salary_pred.py /sal_pred
+COPY salary_pred.py .
 
-COPY Salary_data.csv /sal_pred
+COPY Salary_data.csv .
 
 CMD python3 salary_pred.py
 
