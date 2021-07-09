@@ -7,7 +7,5 @@ metadata:
 spec:
   containers:
   - name: pod1
-    image: harc1199/mlops_sal_pred:v1
-    env:
-    - name: EXPERIENCE
-      value: "4"
+    image: harc1199/sal_pred_ml:v1
+    
