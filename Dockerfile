@@ -8,6 +8,5 @@ COPY salary_pred.py .
 
 COPY Salary_data.csv .
 
-CMD python3 salary_pred.py
 
 
